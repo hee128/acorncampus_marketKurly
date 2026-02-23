@@ -85,7 +85,7 @@
       }
 
       .best_filter_t div {
-        color:var(--text-secondary);
+        color:var(--border-color);
       }
 
       .best_filter_box {
@@ -110,7 +110,7 @@
       }
       
       .best_amt {
-        color: var(--text-secondary);
+        color: var(--border-color);
         font-size: 12px;
         font-weight: 500;
       }
@@ -129,7 +129,9 @@
       }
 
       .best_category, .best_price, .best_brand,
-      .best_skintype, .best_type, .best_hairtype {
+      .best_skintype, .best_type, .best_hairtype,
+      .best_benefit, .best_release, .best_wrappingtype,
+      .best_delivery, .best_promotion, .best_except {
         position: relative;
         padding-top: 20px;
         border-bottom: 1px solid var(--border-color);
@@ -241,22 +243,27 @@
         text-align: start;
         padding: 8px;
         cursor: pointer;
+        height: 150px;
       }
 
       .best_p1 {
         color: var(--text-secondary);
         padding-bottom: 5px;
+        
       }
 
       .best_p2 {
         font-size: 15px;
         letter-spacing: 0.8px;
         padding-bottom: 10px;
+        height: 50px;
       }
       .best_p3 {
           color: var(--text-secondary);
           font-size: 12px;
           padding-bottom: 14px;
+          background-color: #fff;
+          height: 30px;
       }
       .best_p4 {
         color: var(--text-secondary);
