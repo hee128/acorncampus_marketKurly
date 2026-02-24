@@ -237,7 +237,7 @@ main{
 .sixthLine {
     width: 400px;
     height: 45px;
-    border: 1px solid #8d4cc4;
+    border: 1px solid #a571cf;
     border-radius: 5px;
     margin-top: 20px;
     background-color: #F6EDFF;
@@ -272,6 +272,6 @@ main{
     align-items: center;     
     font-size: 15px;
     font-weight: bold;
-    color: #8d4cc4; 
+    color: #672091; 
     
 }
