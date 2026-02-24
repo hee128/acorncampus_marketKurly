@@ -1,0 +1,12 @@
+main{
+    width: 1050px;
+    height: 2840px;
+    display: ;
+}
+.left-img{
+    background-image: url(../images/main01.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 430px; 
+    height: 522px;
+}
