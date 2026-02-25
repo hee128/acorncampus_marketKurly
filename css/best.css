@@ -119,7 +119,8 @@ a {
   padding: 30px 10px;
 
   position: sticky;
-  top: 0px; /* 헤더 높이에 맞게 */
+  top: 0px;
+  /* 헤더 높이에 맞게 */
   max-height: calc(100vh - 120px);
   overflow-y: auto;
 
@@ -211,6 +212,7 @@ a {
   background-color: var(--border-color);
   border-radius: 5px;
 }
+
 .bb2 li a:hover {
   background-color: #333;
   color: #fff;
@@ -223,6 +225,7 @@ a {
   top: 20px;
   font-size: 20px;
 }
+
 .best_btn {
   border: 1px solid var(--text-secondary);
   border-radius: 50%;
@@ -232,6 +235,7 @@ a {
   height: 20px;
   cursor: pointer;
 }
+
 .best_btn.active {
   background-color: var(--main-purple);
   border-radius: 50%;
@@ -339,35 +343,42 @@ a {
   height: 50px;
   line-height: 1.2;
 }
+
 .best_p3 {
   color: var(--text-secondary);
   font-size: 12px;
   height: 30px;
   padding-top: 10px;
 }
+
 .best_p4 {
   color: var(--text-secondary);
   padding-top: 10px;
   padding-bottom: 5px;
   text-decoration: line-through;
 }
+
 .best_red {
   color: red;
   padding-right: 8px;
 }
+
 .best_p5 {
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 900;
 }
+
 .best_review {
   padding-top: 10px;
 }
 
 /* 쿠폰증정 */
 .best_coupon {
-  background-color: var(--sub-purple);
+  background-color: #bd76ff;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 500;
   color: #fff;
-  width: 120px;
+  width: 110px;
   height: 30px;
   border-radius: 5px;
   padding: 5px 0px;
